@@ -42,6 +42,10 @@ Putting together this github repo so that I can provide a central place of all t
 
 [Kube 101 - Episode 5](https://www.youtube.com/watch?v=euZdS5b2siA)
 
+### Carlos A. Marquez GitHub - https://github.com/carlosalexei
+[AKS Workshop](https://github.com/carlosalexei/aks-workshop)
+
+
 ## Testing Area
 ```
 Test
