@@ -27,6 +27,19 @@ Putting together this github repo so that I can provide a central place of all t
 
 [Helm](https://helm.sh/)
 
+## Useful Resources
+[Kubernetes 101 by Jeff Geerling](https://kube101.jeffgeerling.com/)
+
+[Kube 101 - Episode 1](https://www.youtube.com/watch?v=mrxA8g3w6ic)
+
+[Kube 101 - Episode 2]
+
+[Kube 101 - Episode 3]
+
+[Kube 101 - Episode 4]
+
+[Kube 101 - Episode 5]
+
 ## Testing Area
 ```
 Test
