@@ -2,7 +2,7 @@
 Putting together this github repo so that I can provide a central place of all things Docker & Kubernetes that I need to remember / dive further into.
 
 ## Update History
-2020-12-16 - Creating my Github Repo
+2020-12-16 - Creating my GitHub Repo
 
 ## Important Technologies for Docker & Kubernetes
 [Docker](https://www.docker.com/)
