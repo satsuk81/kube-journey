@@ -79,6 +79,7 @@ docker build -t myregistry1518.azurecr.io/helloworld:2.0 .
 ```
 ```
 docker push myregistry1518.azurecr.io/helloworld:2.0
+```
 
 ### Azure CLI
 ```
