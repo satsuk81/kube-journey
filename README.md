@@ -57,6 +57,10 @@ Putting together this github repo so that I can provide a central place of all t
 Docker VM - [![Deploy Docker VM to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcarlosalexei%2Faks-workshop%2Fmain%2Fcontent%2Flabs%2Farm%2Fazuredeploy.json?token=ABTLB4JBZTT3VMZDJB3TCJK7ZGVU4)
 
 ## Code Examples
+### GitHub
+```
+git clone https://github.com/carlosalexei/demoapps.git
+```
 ### Docker Desktop
 ```
 netstat -abn
@@ -73,6 +77,18 @@ wsl -l -v
 
 ### Docker CLI
 ```
+docker pull nginx
+```
+```
+docker run -d -p 8080:80 --name mynginx nginx
+```
+```
+docker stop mynginx
+```
+```
+docker run -it --rm -p 8080:8080 tomcat:8.0
+```
+```
 docker ps -a
 ```
 ```
@@ -85,7 +101,19 @@ docker rm $(docker ps -a -q) -f
 docker rmi $(docker images -a -q) -f
 ```
 ```
+docker build -t helloworld:1.0 .
+```
+```
 docker build -t myregistry1518.azurecr.io/helloworld:2.0 .
+```
+```
+docker run -d -p 8080:80 helloworld:1.0
+```
+```
+docker tag helloworld:1.0 <<your account>>/helloworld:1.0
+```
+```
+docker push <<your account>>/helloworld:1.0
 ```
 ```
 docker push myregistry1518.azurecr.io/helloworld:2.0
@@ -94,7 +122,14 @@ docker push myregistry1518.azurecr.io/helloworld:2.0
 ### Azure CLI
 ```
 az account set --subscription <your-subs-id>
-```  
+```
+```
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+```
+```
+az login
+```
+
 ### Kubernetes
 
 
