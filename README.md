@@ -1,6 +1,8 @@
 # Welcome to my Docker / Kubernetes Journey 2020
 Putting together this github repo so that I can provide a central place of all things Docker & Kubernetes that I need to remember / dive further into.
 
+[GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+
 ## Update History
 2020-12-16 - Creating my GitHub Repo
 
