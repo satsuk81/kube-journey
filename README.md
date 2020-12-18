@@ -55,6 +55,37 @@ Putting together this github repo so that I can provide a central place of all t
 [AKS Workshop](https://github.com/carlosalexei/aks-workshop)
 
 ## Code Examples
+### Docker Desktop
+netstat -abn
+net stop http
+netcfg -d
+wsl -l -v
+
+### Docker CLI
+```
+docker ps -a
+```
+```
+docker images
+```
+```
+docker rm $(docker ps -a -q) -f
+```
+```
+docker rmi $(docker images -a -q) -f
+```
+```
+docker build -t myregistry1518.azurecr.io/helloworld:2.0 .
+```
+```
+docker push myregistry1518.azurecr.io/helloworld:2.0
+
+### Azure CLI
+```
+az account set --subscription <your-subs-id>
+```  
+### Kubernetes
+
 
 ## Testing Area
 ```
