@@ -4,6 +4,9 @@ Putting together this github repo so that I can provide a central place of all t
 ## Update History
 2020-12-16 - Creating my GitHub Repo
 
+## Content Links
+[Important Technologies for Docker & Kubernetes](https://github.com/satsuk81/kube-journey#important-technologies-for-docker--kubernetes)
+
 ## Important Technologies for Docker & Kubernetes
 [Docker](https://www.docker.com/)
 
