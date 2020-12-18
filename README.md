@@ -56,10 +56,17 @@ Putting together this github repo so that I can provide a central place of all t
 
 ## Code Examples
 ### Docker Desktop
+```
 netstat -abn
+```
+```
 net stop http
+```
+```
 netcfg -d
+```
 wsl -l -v
+```
 
 ### Docker CLI
 ```
